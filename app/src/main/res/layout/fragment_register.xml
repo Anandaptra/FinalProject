@@ -22,6 +22,7 @@
         android:textSize="24sp"
         android:textStyle="bold"
         android:textColor="@color/black"
+        android:fontFamily="@font/poppins_bold"
         android:layout_below="@id/btnBack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
@@ -96,6 +97,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="+62"
+            app:endIconMode="clear_text"
             android:layout_marginBottom="16dp"
             app:boxCornerRadiusTopStart="16dp"
             app:boxCornerRadiusTopEnd="16dp"
@@ -162,6 +164,7 @@
 
         <TextView
             android:text="Sudah punya akun? "
+            android:fontFamily="@font/poppins_regular"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
@@ -169,7 +172,7 @@
             android:id="@+id/btnSignin"
             android:text="Masuk di sini"
             android:textColor="#7126B5"
-            android:textStyle="bold"
+            android:fontFamily="@font/poppins_bold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
     </LinearLayout>
