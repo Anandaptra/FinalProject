@@ -20,12 +20,4 @@ class SplashFragment : Fragment() {
         binding = FragmentSplashBinding.inflate(inflater, container, false)
         return binding.root
     }
-
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
-
-        Handler().postDelayed({
-            findNavController().navigate(R.id.action_splashFragment_to_homeFragment)
-        },3000)
-    }
 }
